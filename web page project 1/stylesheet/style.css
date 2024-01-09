@@ -7,7 +7,9 @@ body{
     background-image: url(../image/imagebackground.jpg);
     background-size: cover;
     background-position: center;
-    height:100vh;
+    height:104vh;
+    width:1350px;
+
 }
 
 header a{
@@ -167,6 +169,7 @@ nav a:hover{
     background-size: cover;
     background-position: center;
     height:30vh;
+    width:fit-content
 
 }
 .thirdlayer{
@@ -209,6 +212,7 @@ nav a:hover{
     background-size: cover;
     background-position: center;
     height:40vh;
+    width:1350px;
     
 }
 .five{
@@ -291,4 +295,37 @@ nav a:hover{
 .contact{
     text-decoration:underline;
 }
-   
+.fourth-img {
+    width: 1350px;
+    height: 304px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding-inline-start: 150px;
+    padding-bottom: 35px;
+}
+.img{
+    width:500px;
+    height:440px;
+    padding:100px;
+    padding-left: 180px;
+    
+    
+    
+    justify-content: flex-end;
+}
+.img-two{
+    width:350px;
+    height:245px;
+    padding-right: 40px;
+    padding-left: 90px;
+
+    border-inline: 50px;
+
+
+}
+
+     
+
+
